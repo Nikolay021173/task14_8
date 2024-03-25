@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(183, 193, 190);
+} 
+
+#wrapper {
+    margin: 0 10rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.menu {
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgb(8, 118, 252);
+}
+
+.menu li a:link {
+    color: rgb(8, 118, 252);
+}
+
+.menu li a:hover,
+.persAccount > a:hover {
+	color: green;
+}
+
+.menu li a:active,
+.persAccount > a:active {
+	color: red;
+}
+
+.persAccount {
+    font-size: 1.4rem; 
+    position: absolute;
+    top: 2.5rem;
+    left: 93rem;
+}
+
+.persAccount > a {
+    color: black;
+    padding-left: 0.5rem;
+}
+
+.logo {
+    width: 97.5rem;
+    height: 45rem;
+}
+
+h1 {
+    position: absolute;
+    top: 20rem;
+    left: 25rem;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0.16rem 0.16rem 0.1rem rgb(229, 17, 17);
+}
+
+.contactInform {
+    font-size: 1.4rem;
+    text-align: center;
+    height: 3rem;
+    color: blue;
+}
