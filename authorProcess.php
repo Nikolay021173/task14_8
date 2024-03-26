@@ -10,7 +10,7 @@ if (!empty($_POST['password']) && !empty($_POST['login']) && !empty($_POST['birt
     $_SESSION['birthday'] = numbOfDaysBefBirth($birthday);
     $_SESSION['currentUser'] = getCurrentUser();
 
-    if(!empty($_SESSION['$currentUser'])) {
+    if(!empty($_SESSION['currentUser'])) {
         $_SESSION['auth'] = true;
         header('Location: index.php');
     } else {

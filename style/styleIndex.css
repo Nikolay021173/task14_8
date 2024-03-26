@@ -58,7 +58,7 @@ body {
     height: 45rem;
 }
 
-h1 {
+.nameLogo {
     position: absolute;
     top: 20rem;
     left: 25rem;
@@ -67,9 +67,75 @@ h1 {
     text-shadow: 0.16rem 0.16rem 0.1rem rgb(229, 17, 17);
 }
 
-.contactInform {
+#heading {
+    text-align: center;
+}
+
+.content {
+    padding: 2.3rem;
+}
+
+.content > p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+#contactInform {
+    border: 1px solid black;
     font-size: 1.4rem;
     text-align: center;
     height: 3rem;
     color: blue;
+    padding-bottom: 4.5rem;
+    margin-top: -48rem;
+    background-color: rgb(195, 172, 144);
 }
+
+.imageSpa {
+    width: 30rem;
+    height: 25rem;
+      
+}
+
+#services {
+    text-align: center;
+}
+
+.spaTreatments {
+    display: grid;
+    grid-template: 1fr 1fr  1fr / 1fr 1fr 1fr ;
+    
+    margin-left: 3.7rem;
+}
+
+.servSpa {
+    padding: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+ .spa > h2, h3{
+    color: rgb(148, 7, 49);
+    text-align: center;
+}
+
+h3 a {
+    color: rgb(12, 148, 7);  
+}
+
+h3 a:hover {
+	color: red;
+}
+
+.customProm {
+    border: 2px solid red;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.custom, h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+}
+
